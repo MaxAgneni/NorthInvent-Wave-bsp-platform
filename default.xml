@@ -13,7 +13,7 @@
 
   <project remote="oe" revision="dizzy" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="roj" revision="dizzy" name="roj-community-bsp-base" path="sources/base">
+  <project remote="wave" revision="dizzy" name="NortInvent-Wave-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
