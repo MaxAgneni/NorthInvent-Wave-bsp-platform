@@ -6,7 +6,7 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://github.com/Freescale" name="freescale"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
-  <remote fetch="git://github.com/ipTronix" name="roj"/>
+  <remote fetch="git://github.com/MaxAgneni" name="wave"/>
 
   <project remote="yocto" revision="dizzy" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="dizzy" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
@@ -21,6 +21,6 @@
   <project remote="freescale" revision="dizzy" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="dizzy" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
   <project remote="freescale" revision="dizzy" name="Documentation" path="sources/Documentation"/>
-  <project remote="roj" revision="dizzy" name="meta-roj" path="sources/meta-roj"/>
+  <project remote="wave" revision="dizzy" name="meta-wave" path="sources/meta-wave"/>
 
 </manifest>
